@@ -15,7 +15,7 @@ def run(playwright):
 
     # Open new page
     page = context.newPage()
-
+    form_link = "https://forms.office.com/Pages/ResponsePage.aspx?id=00dqnpUnl0ueUnixBgYp8Stmu_7GloVGt3cAK35kmChUMkU5QzRHV1kxQlpCN0dIQk9NSUdEWUQ3WC4u"
     # Login to Microsoft Office
     page.goto("https://login.microsoftonline.com/")
     email_focus = "input[aria-label=\"Enter your email address, phone number or Skype.\"]"
@@ -28,7 +28,7 @@ def run(playwright):
     with page.expect_navigation():
         page.click("input[type=\"submit\"]")
     # Go to the form page
-    page.goto("https://forms.office.com/Pages/ResponsePage.aspx?id=00dqnpUnl0ueUnixBgYp8Stmu_7GloVGt3cAK35kmChUMkU5QzRHV1kxQlpCN0dIQk9NSUdEWUQ3WC4u")
+    page.goto(form_link)
 
     # TODO: Test if filled out
 
@@ -52,6 +52,7 @@ def run(playwright):
         "//*[@role=\"log\"]/div[1]/span")
     message = page.querySelector(
         "//*[@role=\"log\"]/div[2]/span")
+    # Print the thank-you message
     print("\n", title.innerHTML())
     print("\n", message.innerHTML())
 
