@@ -8,7 +8,7 @@ This is an automated Python(3.7+) script of filling out the forms for Xiamen Uni
 
 [The link to the form](https://forms.office.com/Pages/ResponsePage.aspx?id=00dqnpUnl0ueUnixBgYp8Stmu_7GloVGt3cAK35kmChUMkU5QzRHV1kxQlpCN0dIQk9NSUdEWUQ3WC4u)
 
-Simple code, based on [Microsoft Playwright](https://github.com/microsoft/playwright-python), no browser simulation(playwright) on `Version 1.0` // TODO
+Simple code, based on [Microsoft Playwright](https://github.com/microsoft/playwright-python), **no browser simulation**(playwright) on `Version 1.0` *// TODO*
 
 The script will help you filling out the forms and print the feedback.
 
