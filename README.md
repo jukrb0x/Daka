@@ -2,7 +2,9 @@
 
 **XMUM Automated Covid-19 daily health Check-in**
 
-Version `0.1`
+厦门大学马来西亚分校一键健康打卡脚本
+
+Version `0.2`
 
 This is an automated Python(3.7+) script of filling out the forms for Xiamen University Malaysia Covid-19 health Check-in
 
