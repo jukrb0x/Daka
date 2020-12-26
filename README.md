@@ -2,7 +2,7 @@
 
 **XMUM Automated Covid-19 daily health Check-in**
 
-厦门大学马来西亚分校一键健康打卡脚本
+厦门大学马来西亚分校**一键**每日健康**打卡**脚本
 
 Version `0.2`
 
@@ -41,7 +41,7 @@ pip install playwright
 Browser supporting drivers
 
 ```shell
-# it may take a white to install due to the network condition
+# it may take a while to install, depending on network conditions
 python -m playwright install
 ```
 
