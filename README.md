@@ -14,7 +14,7 @@ The script will help you filling out the forms and print the feedback.
 
 ## :face_with_thermometer: Important Attention
 
-:warning: **Please noted** that this handsfree script is only for students who are in the good physical condition, If you have any symptoms, **please fill out the form according to the actual situation** and seek medical attention. :hospital: Wear mask and Stay safe, keep away from the crowds, we are all fighting alongside you in this white war.
+:warning: **Please noted** that this handsfree script is only for students who are in the good physical condition, If you have any symptoms, **please fill out the form according to the actual situation** and seek medical attention. :hospital: Wear mask and Stay safe, keep away from the crowds, we are all fighting alongside you in this anti-epidemic.
 
 :warning: **请注意**，本自动打卡脚本只限于身体状况实际符合健康标准的同学填写，如果你的身体状况不佳，请手动点击下方的链接如实填报，并寻求相应的医疗帮助。戴好口罩，保持健康，远离人群，我们与你同在。
 
