@@ -22,8 +22,9 @@ def run(playwright):
     page.click(email_focus)
     page.fill(email_focus, email)
     with page.expect_navigation():
-        page.press(email_focus, "Enter")
-    page.fill("input[name=\"passwd\"]", pwd)
+        page.click("input[type=\"submit\"]")
+    page.click("input[type=\"password\"]")
+    page.fill("input[type=\"password\"]", pwd)
     with page.expect_navigation():
         page.click("input[type=\"submit\"]")
     # Go to the form page
