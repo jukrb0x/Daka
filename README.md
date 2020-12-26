@@ -73,7 +73,8 @@ python daka.py
 
 ## :bird: TODO
 
-- [ ] Collect thank you
+- [x] Collect thank-you message
 - [ ] Testing if filled out first
+- [ ] GUI
 - [ ] Telegram Bot
 - [ ] **A script without browser simulation**
