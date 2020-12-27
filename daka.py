@@ -40,8 +40,10 @@ def run(playwright):
     page.click("text=\"以上症状均无\"")
     # Receipt option
     if(SEND_EMAIL):
+        # FIXME: text => XPath
         page.click("text=/.*Send me an email receipt of my.*/")
     # Submit
+    # FIXME: text=>XPath
     page.click("text=\"Submit\"")
 
     # Get focus
