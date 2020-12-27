@@ -18,7 +18,7 @@ def run(playwright):
     form_link = "https://forms.office.com/Pages/ResponsePage.aspx?id=00dqnpUnl0ueUnixBgYp8Stmu_7GloVGt3cAK35kmChUMkU5QzRHV1kxQlpCN0dIQk9NSUdEWUQ3WC4u"
     # Login to Microsoft Office
     page.goto("https://login.microsoftonline.com/")
-    email_focus = "input[aria-label=\"Enter your email address, phone number or Skype.\"]"
+    email_focus = "input[type=\"email\"]"
     page.click(email_focus)
     page.fill(email_focus, email)
     with page.expect_navigation():
