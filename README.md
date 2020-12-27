@@ -1,6 +1,6 @@
 # :performing_arts: Daka
 
-**XMUM Automated Covid-19 daily health Check-in**
+**XMUM Covid-19 daily health Automated Check-in**
 
 厦门大学马来西亚分校**一键**每日健康**打卡**脚本
 
